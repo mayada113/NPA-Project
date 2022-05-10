@@ -1,0 +1,48 @@
+#player-info{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    
+;}
+
+.all-info{
+    display: grid;
+    grid-template-areas:
+    "n"
+    "j"
+    "i"
+    "p";
+    background-color: orange;
+    margin: 1%;
+    text-align: center;
+    font-family: 'Graduate';
+    justify-content: center;
+
+}
+
+#name{
+    grid-area: n;
+}
+#number{
+    grid-area: j;
+}#pos{
+    grid-area: p;
+}#img{
+    grid-area: i;
+    background-color:lightgray;
+    margin: 5px;
+   
+}
+
+#team-input{
+    font-family: 'Graduate';
+    width: 80%;
+}
+#search{
+    font-family: 'Graduate';
+    width: 15%;
+    height: 10%;
+
+}
